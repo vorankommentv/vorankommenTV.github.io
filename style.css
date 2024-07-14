@@ -1,0 +1,55 @@
+html, main{
+    font-family: "Roboto Mono", monospace;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+@media (min-width: 576px){
+	html {
+		font-size: 14px; /* Changing Font-Size when Screensize is 576px*/
+	}
+}
+@media (min-width: 768px){
+	html {
+		font-size: 16px; /* Changing Font-Size when Screensize is 768px*/
+	}
+}
+@media (min-width: 992px){
+	html {
+		font-size: 18px; /* Changing Font-Size when Screensize is 992px*/
+	}
+}
+@media (min-width: 1200px){
+	html {
+		font-size: 20px; /* Changing Font-Size when Screensize is 1200px*/
+	}
+}
+.start{
+    font-size: 3.75em;
+	font-weight: 600;
+}
+.tagline{
+    font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+}
+.social-icons i{
+    font-size: 2.5em;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.icons-social a{
+    text-decoration: none;
+}
+.fa-brands:hover{
+    color: rgb(153, 153, 153);
+}
+.fa-solid:hover{
+    color: rgb(153, 153, 153);
+}
